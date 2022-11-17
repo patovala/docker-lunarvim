@@ -1,5 +1,9 @@
 FROM archlinux:base-devel
 
+LABEL description="Dockerized LunarVIM IDE for unfriendly environments"
+LABEL author="Patricio Valarezo (c) @patovala"
+LABEL mantainer="patovala@pupilabox.net.ec"
+
 ENV \
   UID="1000" \
   GID="1000" \
