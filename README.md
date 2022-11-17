@@ -14,6 +14,9 @@ Cause we live in a world where people is freaked out or too lazy to update their
 For running just:
 `docker run -it --rm patovala/docker-lunarvim lvim`
 
+With volumes attached and oh-my-zsh:
+`docker run -it -v $(pwd):/home/patovala/src patovala/docker-lunarvim zsh`
+
 Also you can create a nice alias to run it automatically
 
 `alias lvim='docker run -it -v $(pwd):/home/patovala/src lvim'`
